@@ -12,3 +12,4 @@ gem 'debugger', group: [:development, :test]
 gem 'thin'
 gem 'rspec-rails', group: [:development, :test]
 gem 'quiet_assets', group: :development
+gem 'simple_form'
