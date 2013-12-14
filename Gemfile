@@ -13,3 +13,4 @@ gem 'thin'
 gem 'rspec-rails', group: [:development, :test]
 gem 'quiet_assets', group: :development
 gem 'simple_form'
+gem 'bourbon'
