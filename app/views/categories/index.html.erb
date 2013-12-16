@@ -1,0 +1,8 @@
+<%= link_to 'New Category', new_category_path %>
+
+<% @categories.each do |category| %>
+<h1>
+  <%= category.position %> -
+  <%= link_to category.title, edit_category_path(category) %>
+</h1>
+<% end %>
